@@ -2,7 +2,9 @@ package com.ps.formacion.shared.domain.bus.event;
 
 import com.ps.formacion.shared.domain.Utils;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.HashMap;
 import java.util.UUID;
 
 public abstract class DomainEvent {
@@ -25,6 +27,10 @@ public abstract class DomainEvent {
 
     public DomainEvent() {
     }
+
+    public abstract HashMap<String, Serializable> toPrimitives();
+
+    public abstract String eventName();
 
     public String getAggregateId() {
         return aggregateId;
