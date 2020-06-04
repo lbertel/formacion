@@ -37,3 +37,9 @@ Sera borrado gradlew
 Sera borrado gradlew.bat
 Sera borrado settings.gradle
 Sera borrado src/
+Sera borrado src/main/resources/static/
+Sera borrado src/main/resources/templates/
+Sera borrado src/main/java/formacion/application/
+Sera borrado src/main/java/formacion/domain/
+Sera borrado src/main/java/formacion/infrastructure/
+Sera borrado src/main/java/shared/
