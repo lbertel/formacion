@@ -4,7 +4,7 @@ plugins {
 	id 'java'
 }
 
-group = 'com.ps'
+group = 'com.ps.formacion'
 version = '1.0'
 sourceCompatibility = '11'
 
@@ -24,6 +24,7 @@ dependencies {
 	// implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-hystrix'
 	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
+	implementation 'org.reflections:reflections:0.9.11'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	// runtimeOnly 'mysql:mysql-connector-java'
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
